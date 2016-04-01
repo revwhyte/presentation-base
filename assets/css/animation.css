@@ -1,0 +1,45 @@
+@keyframes to-linkedin-color {
+    from { color: #fff; }
+    to { color: #007bb6; } }
+
+@-webkit-keyframes to-linkedin-color {
+    from { color: #fff; }
+    to { color: #007bb6; } }
+
+@keyframes to-github-color {
+    from { color: #fff; }
+    to { color: #000; } }
+
+@-webkit-keyframes to-github-color {
+    from { color: #fff; }
+    to { color: #000; } }
+
+@keyframes to-facebook-color {
+    from { color: #fff; }
+    to { color: #55ACEE; } }
+
+@-webkit-keyframes to-facebook-color {
+    from { color: #fff; }
+    to { color: #55ACEE; } }
+
+a{
+  color:#fff !important;
+}
+
+.a-linkedin:hover i{
+  animation: to-linkedin-color .5s;
+  -webkit-animation: to-linkedin-color .5s;
+  color: #007bb6; 
+}
+
+.a-github:hover i {
+  animation: to-github-color .5s;
+  -webkit-animation: to-github-color .5s;
+  color: #000;
+}
+
+.a-facebook:hover i {
+  animation: to-facebook-color .5s;
+  -webkit-animation: to-facebook-color .5s;
+  color: #55ACEE; 
+}

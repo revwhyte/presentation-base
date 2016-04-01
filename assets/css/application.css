@@ -6,7 +6,9 @@
 }
 
 body{
+    margin: 0;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #333;
 }
 
 a{
@@ -19,8 +21,11 @@ a{
 .navbar{
     min-height:65px;
     border: 1px solid transparent;
-    border-radius: 4px;
     position: relative;
+    border-color: #e7e7e7;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    padding: 15px;
 }
     .navbar-header{
         float: left;
